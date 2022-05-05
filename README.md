@@ -13,3 +13,13 @@
 - Zero-backlash ball joint
 - Shorest possible length between nozzle and extruder
 - Integrated filament dryer section
+
+## Extruder
+![img](Manual/img/ex1.png)
+
+
+Heater block is mounted to the [effector](CAD/kinematics/effector_ver_7.FCstd)
+
+![img](Manual/img/ex2.png)
+
+
