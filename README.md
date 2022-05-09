@@ -3,7 +3,7 @@
 
 ![img](Manual/img/1.png)
 
-#Features
+# Features
 
 - Build Volume: 300x500mm
 - Lightweight direct drive hotend
@@ -21,5 +21,9 @@
 Heater block is mounted to the [effector](CAD/kinematics/effector_ver_7.FCstd)
 
 ![img](Manual/img/ex2.png)
+
+## Arm calibration tool
+
+![img](Manual/img/tool.png)
 
 
