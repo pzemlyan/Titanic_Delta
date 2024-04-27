@@ -1,0 +1,60 @@
+g1 f8000
+g1 x8.2 y-0 z454.7 
+
+; predock position
+g1 x8.2 y-90 z424.7
+; contact
+g1 x8.2 y-110 z424.7
+;join
+g1 x8.2 y-128 z424.7 f5000
+
+;dock
+g1 x8.2 y-128 z404 f8000
+
+;release
+g1 x8.2 y-128 z375 f5000
+
+;move out
+g1 x8.2 y-50 z360 f8000
+
+;approach to t1
+g1 x20.2 y-40 z280 f8000
+g1 x20.2 y-60 z195 f8000
+g1 x20.2 y-60 z195 f8000
+g1 x20.2 y-80 z195 f8000
+g1 x15.8 y-133.5 z195.2 f8000
+;...
+; teeth to holes
+g1 x15. y-134.5 z235.2 f8000
+;attach t1
+g1 x16.8 y-135.5 z251.2 f1000
+;undock
+g1 x16.8 y-118.5 z251.2 f8000
+g1 x16.8 y-110.5 z251.2 f8000
+
+
+;approach t1 dock
+g1 x16.8 y-118.5 z251.2 f8000
+;dock
+g1 x16.8 y-138.5 z251.2 f4000
+;retract a bit
+g1 x16.8 y-135.5 z251.2 f8000
+;deattach t1
+g1 x16.8 y-135.5 z211.2 f1000
+;move out
+g1 x20.8 y-115.5 z195.2 f8000
+g1 x20.8 y-80.5 z190.2 f8000
+g1 x20.8 y-50.5 z225.2 f8000
+g1 x20.8 y-30.5 z255.2 f8000
+
+;approach to docked t0 
+g1 x8.2 y-30 z365 f8000
+g1 x8.2 y-125 z365 f8000
+;teeth to holes
+g1 x8.2 y-125 z404 f8000
+;attach docked t0
+g1 x8.2 y-125 z424 f4000
+g1 x8.2 y-125 z425.5 f1000
+;deattach t0
+g1 x8.2 y-95 z425.5 f8000
+
